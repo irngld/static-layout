@@ -1,0 +1,444 @@
+body {
+  margin: 0;
+  font-family: "Graphik", Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 0.65fr 0.2fr 1.8fr 1.8fr 0.35fr 0.2fr;
+}
+
+.first-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 55vh;
+  background-size: cover;
+  background-image: url("./assets/Mast-Head_ImgBackGrnd.jpg");
+  background-position: center;
+}
+
+.second-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: auto;
+  height: 15vh;
+  background: linear-gradient(90deg, #081621 5%, #0e4353 100%);
+  background-position: center;
+}
+
+.third-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 85vh;
+  /* background-size: cover; */
+  background: black;
+  background-position: center;
+}
+
+.fourth-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 85vh;
+  /* background-size: cover; */
+  background: #ffffff;
+  background-position: center;
+}
+
+.fifth-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 30vh;
+  background: #1e1e1e;
+  background-position: center;
+}
+
+.sixth-row {
+  height: 45vh;
+  color: #5e6572;
+  background-color: #ebedf2;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* margin: 0 auto; */
+}
+
+/* ========== Buttons ============ */
+
+.nav-login a {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#btn-login {
+  background: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 23px 0 17px;
+  margin: 10px 60px;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none !important;
+}
+
+#btn-login:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.btn-free-trial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px; /* top | horizontal | bottom */
+  margin: 10px 60px;
+  border: none;
+  /* height: 5%; */
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+}
+
+.btn-free-trial:hover {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+#btn-bundle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: white; */
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px; /* top | horizontal | bottom */
+  margin: 10px 60px;
+  color: white;
+  border: 2px white solid;
+  border-radius: 5px;
+  background: transparent;
+  text-transform: uppercase;
+  text-decoration: none !important;
+}
+
+.btn-learn-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px; /* top | horizontal | bottom */
+  margin: 10px 60px;
+  border: none;
+  /* height: 5%; */
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+}
+
+.btn-learn-more:hover {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.btn-try-for {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #040505;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px; /* top | horizontal | bottom */
+  margin: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+}
+
+.btn-try-for:hover {
+  background-color: rgba(4, 5, 5, 0.75);
+}
+
+.btn-learn-more {
+  letter-spacing: 1.5px;
+  height: 30px;
+  width: 110px;
+}
+
+/* ========== First Row ============ */
+
+.hulu-logo {
+  display: flex;
+  width: 25vh;
+}
+
+.header-line-1 {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px;
+  color: #2dbd9d;
+  /* border: 1px white solid; */
+}
+
+.header-line-2 {
+  font-size: 22px;
+  font-weight: 800;
+  text-align: center;
+  padding: 5px;
+  margin: 20px;
+  width: 700px;
+  /* border: 1px white solid; */
+  color: white;
+}
+
+.header-line-3 {
+  font-size: 14px;
+  padding: 5px;
+  margin: 10px;
+  /* border: 1px white solid; */
+  color: white;
+}
+
+/* ========== Second Row ============ */
+
+.hulu-disney-espn {
+  width: 25em;
+}
+
+.bundle-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+}
+
+.header-line-4 {
+  color: #2dbd9d;
+}
+
+/* ========== Third Row ============ */
+
+.third-row-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#third-row-line-1 {
+  font-weight: bolder;
+  text-align: center;
+  margin: 10px;
+  color: #2dbd9d;
+  /* border: 1px white solid; */
+}
+
+#third-row-line-2 {
+  font-size: 4vw;
+  font-weight: 800;
+  text-align: center;
+  margin: 10px 0 20px; /* top | righ-left | bottom */
+  color: #fcfcfc;
+  /* border: 1px white solid; */
+}
+
+#third-row-line-3 {
+  font-size: 1.25vw;
+  width: 800px;
+  text-align: center;
+  margin: 10px 0 50px; /* top | righ-left | bottom */
+  color: #fcfcfc;
+  /* border: 1px white solid; */
+}
+
+.streaming-collection img {
+  display: flex;
+  flex-direction: row;
+  float: left; /* necessary to line img left-to-right */
+  width: auto;
+  height: 452px;
+  padding: 10px;
+}
+
+/* ========== Fourth Row ============ */
+
+table {
+  display: flex;
+  width: 70vw;
+  color: #292c33;
+  border-collapse: collapse; /* prevents spacing between tr border */
+}
+
+/* th.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+} */
+
+tr.border-bottom {
+  line-height: 65px; /* increases tr height */
+  border-bottom: 1px solid #edeff2;
+}
+
+td:nth-child(2),
+td:nth-child(3),
+td:nth-child(4) {
+  text-align: center;
+  width: 20%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  background-color: #f7f8fa;
+  font-weight: 10;
+}
+
+#col2-first-line {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 8px 5px;
+  margin: 0 60px;
+  color: white;
+  border: 1px solid #67728a;
+  border-radius: 15px;
+  background-color: #67728a;
+}
+
+#col3-first-line,
+#col4-first-line {
+  font-size: 11px;
+  padding: 10px 5px;
+  margin-top: 10px;
+  color: white;
+  /* border: 1px solid #67728a;
+  border-radius: 15px;
+  background-color: #67728a; */
+}
+
+#col1-first-line,
+#col2-second-line,
+#col3-second-line,
+#col4-second-line {
+  font-size: 28px;
+  font-weight: 1000;
+  padding: 0 0 10px;
+  margin-top: 10px;
+}
+
+#col2-third-line,
+#col3-third-line,
+#col4-third-line {
+  font-size: 16px;
+  font-weight: 800;
+  padding: 0 0 0;
+  margin-top: 0;
+  color: grey;
+}
+
+.fa-minus {
+  color: lightgrey;
+}
+
+/* ========== Fifth Row ============ */
+
+#fifth-row-line-1 {
+  font-size: 1.5vw;
+  font-weight: thin;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  color: #fcfcf5;
+  /* border: 1px white solid; */
+}
+
+#fifth-row-line-2 {
+  font-size: 16px;
+  font-weight: thin;
+  line-height: 1.5;
+  text-align: center;
+  padding: 5px;
+  margin: 20px;
+  width: 600px;
+  /* border: 1px white solid; */
+  color: #fcfcf5;
+}
+
+#fifth-row-terms {
+  font-size: 10px;
+  padding: 5px;
+  color: #fcfcf5;
+}
+
+/* ========== Sixth Row ============ */
+
+.upper-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  list-style-type: none;
+  padding: 0 10px 10px;
+  margin: 0 0 75px;
+}
+
+.upper-footer h3 {
+  margin: 10px;
+}
+
+.lower-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  /* border: 1px black solid; */
+}
+
+.footer-social a,
+.footer-legal a {
+  cursor: pointer;
+  text-decoration: none !important;
+  color: #5e6572;
+  /* border: 1px black solid; */
+}
+
+.footer-social a {
+  font-size: 23px;
+  margin: 0 10px;
+  /* border: 1px black solid; */
+}
+
+.footer-legal a,
+span {
+  font-size: 12px;
+  margin: 20px 20px 10px;
+  /* border: 1px black solid; */
+}

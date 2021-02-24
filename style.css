@@ -5,7 +5,7 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-rows: 0.65fr 0.2fr 1.8fr 1.8fr 0.35fr 0.2fr;
+  grid-template-rows: 0.65fr 0.2fr 1.8fr 1.8fr 0.35fr 0.2fr; /* grid layout */
 }
 
 .first-row {
@@ -32,8 +32,9 @@ body {
 }
 
 .third-row {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   width: auto;
@@ -44,10 +45,11 @@ body {
 }
 
 .fourth-row {
-  display: flex;
+  display: inline-flex; /* <-- allows for screen adjustment */
+  flex-wrap: wrap; /* <-- allows for screen adjustment */
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
   width: auto;
   height: 85vh;
   /* background-size: cover; */
@@ -285,18 +287,16 @@ body {
 
 table {
   display: flex;
-  width: 70vw;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center;
+  justify-content: center;
+  flex-shrink: 1; */
+  width: auto;
+  /* height: auto; */
   color: #292c33;
   border-collapse: collapse; /* prevents spacing between tr border */
 }
-
-/* th.column {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: auto;
-} */
 
 tr.border-bottom {
   line-height: 65px; /* increases tr height */
